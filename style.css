@@ -1,0 +1,184 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background: #4CAF50; /* Verde Agricola */
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Navegação */
+nav {
+    background: #388E3C;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #FFEB3B;
+}
+
+/* Seções principais */
+section {
+    padding: 40px 20px;
+    margin: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    animation: fadeIn 1s ease-out;
+}
+
+/* Estilo para os títulos das seções */
+section h2 {
+    margin-bottom: 20px;
+    color: #388E3C;
+}
+
+/* Seção de Home com fundo de imagem */
+.field-background {
+    background-image: url('https://via.placeholder.com/1600x500/3e8e41/ffffff?text=Agrinho+2025'); /* Imagem de campo */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.field-background h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.field-background p {
+    font-size: 1.2em;
+}
+
+/* Rodapé */
+footer {
+    background: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #FFEB3B;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Formulário de contato */
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.form-container form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.form-container input, .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    background: #388E3C;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background: #2E7D32;
+}
+
+/* Estilo para a animação de Fade In */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Responsividade: ajusta os elementos em telas menores */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+
+    .field-background {
+        padding: 60px 20px;
+    }
+
+    .form-container form {
+        padding: 15px;
+    }
+
+    .form-container input, .form-container textarea {
+        font-size: 14px;
+    }
+
+    .form-container button {
+        font-size: 14px;
+    }
+}

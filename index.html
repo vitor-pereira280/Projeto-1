@@ -1,1 +1,241 @@
-ola mundo
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Agrinho 2025 - Conexão do Campo à Cidade</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #4CAF50; /* Verde Agricola */
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        nav {
+            background: #388E3C;
+            display: flex;
+            justify-content: center;
+            padding: 15px 0;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #FFEB3B;
+        }
+
+        section {
+            padding: 40px 20px;
+            margin: 20px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            animation: fadeIn 1s ease-out;
+        }
+
+        section h2 {
+            margin-bottom: 20px;
+            color: #388E3C;
+        }
+
+        .field-background {
+            background-image: url('https://via.placeholder.com/1600x500/3e8e41/ffffff?text=Agrinho+2025'); /* Imagem de campo */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .field-background h1 {
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .field-background p {
+            font-size: 1.2em;
+        }
+
+        footer {
+            background: #4CAF50;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        footer a {
+            color: #FFEB3B;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .form-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .form-container form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .form-container input, .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            font-size: 16px;
+        }
+
+        .form-container button {
+            padding: 10px 20px;
+            background: #388E3C;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .form-container button:hover {
+            background: #2E7D32;
+        }
+
+        /* Animação de Fade In */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Agrinho 2025</h1>
+        <p>Conexão do Campo à Cidade</p>
+    </header>
+
+    <nav>
+        <a href="#home">Início</a>
+        <a href="#about">O que é?</a>
+        <a href="#objectives">Objetivos</a>
+        <a href="#technology">Tecnologia e Sustentabilidade</a>
+        <a href="#programming">Programação</a>
+        <a href="#contact">Contato</a>
+    </nav>
+
+    <section class="field-background" id="home">
+        <h1>Bem-vindo ao Agrinho 2025!</h1>
+        <p>O Agrinho 2025 é o evento que conecta o campo e a cidade, trazendo inovação e sustentabilidade para o agronegócio. Junte-se a nós para descobrir as novas tecnologias e soluções para o futuro da agricultura.</p>
+    </section>
+
+    <section id="about">
+        <h2>O que é o Agrinho 2025?</h2>
+        <p>O **Agrinho 2025** é um evento inovador que visa promover a **integração entre o campo e a cidade**, buscando soluções tecnológicas para o agronegócio e mostrando como as inovações podem impactar positivamente a vida nas áreas urbanas e rurais. Através de palestras, workshops e exposições, o evento abordará temas de tecnologia, sustentabilidade, e as melhores práticas agrícolas para o futuro.</p>
+    </section>
+
+    <section id="objectives">
+        <h2>Objetivos do Evento</h2>
+        <ul>
+            <li>Promover a **integração entre as áreas rurais e urbanas** através de tecnologias acessíveis.</li>
+            <li>Apresentar as **últimas inovações tecnológicas** aplicáveis à agricultura.</li>
+            <li>Fomentar práticas **sustentáveis** que contribuam para um agronegócio mais verde e eficiente.</li>
+            <li>Discutir como a **tecnologia pode melhorar a vida nas cidades e no campo**, criando soluções para a alimentação e o desenvolvimento rural.</li>
+        </ul>
+    </section>
+
+    <section id="technology">
+        <h2>Tecnologia e Sustentabilidade</h2>
+        <p>No Agrinho 2025, abordaremos como a **tecnologia** está permitindo uma agricultura mais eficiente e sustentável. Desde sistemas de monitoramento de solo e clima até inovações em cultivos verticalizados nas cidades, a tecnologia é o grande motor da transformação no campo e nas cidades. As discussões vão explorar como essas tecnologias podem ser acessíveis e aplicadas por pequenos e médios agricultores, além de como podem contribuir para a redução do impacto ambiental.</p>
+    </section>
+
+    <section id="programming">
+        <h2>Programação do Evento</h2>
+        <p>Abaixo, você encontra a programação completa do **Agrinho 2025**. Acompanhe os principais palestrantes e atividades do evento.</p>
+        <div class="card">
+            <div>
+                <h3>Dia 1: Conectando o Campo à Cidade</h3>
+                <ul>
+                    <li><strong>09:00 - 10:00</strong>: Abertura do Evento</li>
+                    <li><strong>10:30 - 12:00</strong>: Palestra - Tecnologia no Campo: Como a Inovação Está Transformando a Agricultura</li>
+                    <li><strong>14:00 - 16:00</strong>: Workshop - Uso de Sensores para Monitoramento Agrícola</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Dia 2: Sustentabilidade e Soluções para o Futuro</h3>
+                <ul>
+                    <li><strong>09:00 - 10:30</strong>: Palestra - Soluções Sustentáveis para o Agronegócio</li>
+                    <li><strong>11:00 - 12:30</strong>: Mesa Redonda - Agricultura Digital: Como Conectar o Campo e a Cidade</li>
+                    <li><strong>14:00 - 16:00</strong>: Workshop - Como Inovar no Agronegócio Sustentável</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <div class="form-container">
+            <form>
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensagem" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Agrinho. Todos os direitos reservados. | <a href="https://www.agrinho2025.com">www.agrinho2025.com</a></p>
+    </footer>
+
+</body>
+</html>
